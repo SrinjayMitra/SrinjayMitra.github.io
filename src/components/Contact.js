@@ -11,7 +11,7 @@ const Contact = () => {
           <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </li>
         <li>
-          <a href="https://github.com/user" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://github.com/SrinjayMitra" target="_blank" rel="noopener noreferrer">GitHub</a>
         </li>
         <li>
           <a href="/path/to/your/resume.pdf" target="_blank" rel="noopener noreferrer">Resume/CV</a>
