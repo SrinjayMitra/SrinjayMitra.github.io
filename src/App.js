@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
-// import Projects from './components/Projects';
+import Projects from './components/Projects';
 // import Skills from './components/Skills';
 // import Experience from './components/Experience';
 // import Education from './components/Education';
@@ -15,8 +15,8 @@ const App = () => {
     <div className="App">
       <Header />
       <Hero />
-      {/* <Projects />
-      <Skills />
+      <Projects />
+ {/*     <Skills />
       <Experience />
       <Education />
       <Interests />
