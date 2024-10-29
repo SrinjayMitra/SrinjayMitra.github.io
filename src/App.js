@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
-// import Skills from './components/Skills';
+import Skills from './components/Skills';
 // import Experience from './components/Experience';
 // import Education from './components/Education';
 // import Interests from './components/Interests';
@@ -16,8 +16,8 @@ const App = () => {
       <Header />
       <Hero />
       <Projects />
- {/*     <Skills />
-      <Experience />
+      <Skills />
+     {/* <Experience />
       <Education />
       <Interests />
       <Contact />

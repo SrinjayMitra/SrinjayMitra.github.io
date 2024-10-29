@@ -1,0 +1,18 @@
+.skills {
+    padding: 20px;
+    background-color: #1e1e1e; /* Dark background for contrast */
+    border-radius: 10px;
+  }
+  
+  .skills h3 {
+    margin-bottom: 20px;
+  }
+  
+  .skills ul {
+    padding-left: 20px; /* Indentation for list */
+  }
+  
+  .skills li {
+    margin-bottom: 10px;
+  }
+  
