@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
+import ThreeScene from './components/ThreeScene';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
@@ -12,6 +13,7 @@ import './App.css';
 const App = () => {
   return (
     <div className="App">
+      <ThreeScene/>
       <Header />
       <Hero />
       <Projects />

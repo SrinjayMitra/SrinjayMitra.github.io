@@ -1,0 +1,7 @@
+/* Limit the size of the Three.js container */
+#three-text-container {
+  width: 100%;
+  height: 100px; /* Adjust height as needed */
+  overflow: hidden;
+  /* z-index: -1; */
+}
