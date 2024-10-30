@@ -15,4 +15,8 @@
   .education li {
     margin-bottom: 15px;
   }
-  
+  .institution-logo {
+    width: 150px; /* Adjust size as needed */
+    height: 40px;
+    margin-right: 8px; /* Space between logo and institution name */
+  }
