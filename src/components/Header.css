@@ -1,35 +1,59 @@
 .header {
-  background-color: #1a1a1a; /* Dark background for header */
-  color: #fff; /* White text color */
-  display: flex; /* Use flexbox for layout */
-  justify-content: space-between; /* Space out logo and nav */
-  align-items: center; /* Center items vertically */
-  padding: 10px 20px; /* Add padding */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #1e1e1e;
+  color: #00bcd4; /* Initial teal color */
+  transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+}
+
+.header:hover {
+  background-color: #444; /* Optional: change this color as desired */
+  color: #fff; /* Changes text to white on hover */
+  transform: scale(1.02); /* Slight zoom-in effect on hover */
 }
 
 .logo {
-  font-size: 24px; /* Adjust logo font size */
-  font-weight: bold; /* Make logo text bold */
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  color: #00bcd4; /* Teal color for the logo */
+  transition: color 0.3s ease;
+}
+
+.logo:hover {
+  color: #fff; /* Changes logo to white on hover */
+}
+
+.logo-image {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.logo-image:hover {
+  transform: scale(1.1); /* Zoom-in effect for the logo image */
 }
 
 .navbar ul {
-  list-style: none; /* Remove bullet points from list */
-  margin: 0; /* Remove margin */
-  padding: 0; /* Remove padding */
-  display: flex; /* Use flexbox for horizontal layout */
-}
-
-.navbar li {
-  margin-left: 20px; /* Space between nav items */
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
 }
 
 .navbar a {
-  text-decoration: none; /* Remove underline from links */
-  color: #fff; /* White link color */
-  font-weight: 500; /* Slightly bolder text */
-  transition: color 0.3s ease; /* Smooth transition for hover */
+  color: #00bcd4; /* Initial teal color for navbar links */
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.header:hover .navbar a {
+  color: #fff; /* Navbar links change to white on header hover */
 }
 
 .navbar a:hover {
-  color: #00bcd4; /* Change color on hover */
+  color: #ddd; /* Slightly lighter shade on individual link hover */
+  transform: scale(1.05); /* Zoom-in effect on hover */
 }
