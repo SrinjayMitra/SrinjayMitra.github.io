@@ -4,25 +4,25 @@ import './Projects.css';
 const Projects = () => {
   const projects = [
     {
-      title: 'Project One',
+      title: 'BinGama',
       description: 'A music player that reads the SD card of your device and displays the songs which you can play',
       link: 'https://github.com/SrinjayMitra/BinGama.git',
       logo: 'https://img.icons8.com/color/48/000000/music.png'
     },
     {
-      title: 'Project Two',
+      title: 'MediaPlayer',
       description: 'Just like YouTube, it plays a random video from the internet.',
       link: 'https://github.com/SrinjayMitra/Mediaplayer.git',
       logo: 'https://img.icons8.com/color/48/000000/youtube-play.png'
     },
     {
-      title: 'Project Three',
+      title: 'Quizly',
       description: 'This is a quiz application that presents 15 cricket-related questions randomly and determines your score based on your intelligence quotient and the number of correct responses.',
       link: 'https://github.com/SrinjayMitra/CricketQuiz.git',
       logo: 'https://img.icons8.com/color/48/000000/cricket.png'
     },
     {
-      title: 'Project Four',
+      title: 'Mafiawars',
       description: 'A board game info website of IAT 249',
       link: 'https://mafiawars.netlify.app/',
       logo: 'https://img.icons8.com/color/48/000000/board-game.png'
