@@ -38,3 +38,7 @@ section {
   overflow: hidden;
 }
 
+/* In your CSS (e.g., global styles) */
+html {
+  scroll-behavior: smooth;
+}

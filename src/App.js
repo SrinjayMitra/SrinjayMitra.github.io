@@ -13,7 +13,7 @@ import './App.css';
 const App = () => {
   return (
     <div className="App">
-      <ThreeScene/>
+      {/* <ThreeScene/> */}
       <Header />
       <Hero />
       <Projects />
