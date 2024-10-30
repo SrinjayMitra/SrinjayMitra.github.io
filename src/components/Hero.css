@@ -1,34 +1,36 @@
 .hero {
-    text-align: center;
-    padding: 40px 20px;
-  }
-  
-  .profile-pic {
-    border-radius: 50%;
-    width: 150px; /* Adjust based on preference */
-    height: 150px; /* Adjust based on preference */
-  }
-  
-  .headline {
-    font-size: 2em;
-    margin: 20px 0;
-  }
-  
-  .mission {
-    font-size: 1.2em;
-    margin: 20px 0;
-  }
-  
-  .whatsapp-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #25d366; /* WhatsApp green */
-    color: #fff;
-    border-radius: 5px;
-    transition: background 0.3s;
-  }
-  
-  .whatsapp-button:hover {
-    background-color: #128c7e; /* Darker green on hover */
-  }
-  
+  text-align: center;
+  background-color: #1e1e1e;
+  padding: 40px 20px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.headline {
+  font-size: 2em;
+  margin: 20px 0;
+}
+
+.mission {
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+.whatsapp-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, font-size 0.3s ease, transform 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  background-color: #128c7e;
+  font-size: 1.1em;
+  transform: scale(1.05); /* Slight scaling for a more dynamic effect */
+}
