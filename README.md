@@ -1,6 +1,6 @@
 # Srinjay Mitra's Personal Portfolio
 
-[![Deploy to GitHub Pages](https://img.shields.io/github/deployments/SrinjayMitra/SrinjayMitra.github.io/github-pages)](https://srinjaymitra.github.io/portfolio)
+![GitHub Pages Status](https://img.shields.io/badge/Status-Running-brightgreen)
 
 Welcome to my personal portfolio website repository! This website is a showcase of my projects, skills, experiences, and interests, developed using React and deployed via GitHub Pages.
 
